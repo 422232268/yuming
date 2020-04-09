@@ -10,6 +10,6 @@ app.use(router.routes()).use(router.allowedMethods());
 
 app.use(serve(path.join(__dirname, './')));
 
-app.listen(8080, () => {
+app.listen(80, () => {
     console.log('start')
 });
